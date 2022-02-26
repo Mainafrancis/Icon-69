@@ -104,3 +104,19 @@ intro h2{
     font-size: 2rem;
     margin-bottom: 20px;
 }
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.gallery img{
+    width: 500px;
+    height: 800px;
+    margin: 10px;
+}
