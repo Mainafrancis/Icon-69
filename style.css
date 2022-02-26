@@ -108,15 +108,47 @@ intro h2{
     display: flex;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    align-items: center;
+    padding: 20px;
 }
 .gallery{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     box-sizing: border-box;
+
+
 }
 .gallery img{
     width: 500px;
     height: 800px;
     margin: 10px;
+}
+.cards{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+    
+}
+.cards img{
+    width: 650px;
+    height: 530px;
+    margin: 10px;
+
+}
+.cards:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.container{
+    padding: 2px 16px;
 }
