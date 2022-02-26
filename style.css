@@ -155,6 +155,9 @@ intro h2{
 }
 .row{
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
 }
 .box{
     display: flex;
@@ -167,7 +170,13 @@ intro h2{
     text-align: justify;
     padding: 10px;
     border-radius: 15px;
-    background: linear-gradient(to top, rgb(255,45,45) 50%, white 50%;
+    background: linear-gradient(to top, rgb(255,45,45) 50%, white 50%);
     background-size: 100% 200%;
     transition: all .8s ease;
+}
+.box:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(255,45,45);
 }
