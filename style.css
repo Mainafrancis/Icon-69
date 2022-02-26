@@ -148,3 +148,18 @@ intro h2{
 .container{
     padding: 2px 16px;
 }
+#services{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.row{
+    display: flex;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+}
