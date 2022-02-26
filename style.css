@@ -34,7 +34,7 @@
     height: 840px;
     justify-content: center;
     align-items: center;
-    color: pink;
+    color: aqua;  
 }
 #home::before{
     content: "";
@@ -55,10 +55,27 @@
     position: absolute;
     top: 30%;
     right: 10%;
+    border: none;
 }
 .headings{
     font-family: century;
     font-size: 3rem;
     text-align: center;
     margin: 40px 0px;
+}
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: .6s ease;
+    background: aqua;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: red;
+    color: black;
+    box-shadow: o o 5px white, 0 0 10px white, 0 0 15px white;
+    font-weight: bold;
 }
