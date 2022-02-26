@@ -152,6 +152,7 @@ intro h2{
     display: flex;
     flex-direction: column;
     padding: 20px;
+    background-color: brown;
 }
 .row{
     display: flex;
