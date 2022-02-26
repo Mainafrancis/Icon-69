@@ -85,6 +85,7 @@
     box-sizing: border-box;
     padding: 20px;
     margin-bottom: 50px;
+    background: pink;
 }
 #pic{
     display: flex;
